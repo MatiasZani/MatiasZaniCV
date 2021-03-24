@@ -357,6 +357,23 @@ ul#nav li.current a { color: #F06000; }
 100% { width: 95%;  }
 }
 
+.wordpress {
+   width: 50%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+@-moz-keyframes wordpress {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+   }
+   
+   @-webkit-keyframes wordpress {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+   }
+
+ 
+
 .python {
    width: 70%;
    -moz-animation: python 2s ease;
@@ -372,7 +389,20 @@ ul#nav li.current a { color: #F06000; }
 0%   { width: 0px;  }
 100% { width: 70%;  }
 }
-
+.swift {
+   width: 50%;
+   -moz-animation: swift 2s ease;
+   -webkit-animation: swift 2s ease;
+}
+@-moz-keyframes swift {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+   }
+   
+   @-webkit-keyframes swift {
+   0%   { width: 0px;  }
+   100% { width: 50%;  }
+   }
 .java {
    width: 65%;
    -moz-animation: java 2s ease;
