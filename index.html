@@ -24,9 +24,10 @@
 
     <script type="text/javascript">
         var ln = navigator.language || navigator.userLanguage;
-        let pagActual = window.location.pathname;
         
-        if (ln == 'en-Es' && !pagActual.includes("indexEs")) {
+        console.log(navigator.language || navigator.userLanguage)
+
+        if (ln == 'es-Es') {
             window.location.href = 'indexEs.html';  
         } else  {
             window.location.href = 'indexEn.html';
