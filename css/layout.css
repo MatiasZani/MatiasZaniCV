@@ -187,7 +187,12 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   
+   background: #1F1F1F url(../images/about_us_bg.jpg) no-repeat center center;
+   background-size: cover !important;
+	-webkit-background-size: cover !important;
+   background-attachment: fixed;
+   
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
